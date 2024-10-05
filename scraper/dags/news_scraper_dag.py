@@ -8,7 +8,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 import uuid
 
 
-# Scraper class defined here
+# Scraper class
 class Scraper:
     articles = []
 
@@ -123,7 +123,7 @@ class Scraper:
                 self.articles.append(article)
 
 
-# Define the scraping function to be called by the DAG
+# scraping function
 def scrape_articles(ti):
     scraper = Scraper()
     sources = [
