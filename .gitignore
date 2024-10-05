@@ -1,0 +1,26 @@
+# Ignore the virtual environment folder
+scraper/scraper/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Ignore Airflow and Python cache files
+.airflow/
+scraper/.airflow/
+
+# Ignore any environment-specific configuration files
+.env
+scraper/.env
+
+# Ignore database files or credentials if any
+db.sqlite3
+scraper/db.sqlite3
+
+# Ignore Docker-related files if not needed
+docker-compose.override.yml
+
