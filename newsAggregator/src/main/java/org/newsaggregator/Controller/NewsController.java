@@ -1,3 +1,4 @@
+// this is the news controller
 package org.newsaggregator.Controller;
 
 import org.newsaggregator.Model.News;
